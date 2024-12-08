@@ -57,7 +57,7 @@ spec:
         runAsNonRoot: false
         runAsUser: 0
       script: |
-        #!/bin/bash
+        #!/usr/bin/env sh
         set -e
         python -m pip install --upgrade pip wheel
         pip install -r requirements.txt
